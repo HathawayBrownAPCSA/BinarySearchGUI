@@ -81,7 +81,11 @@ public class BinarySearchGUI extends JPanel
   {
     public void actionPerformed(ActionEvent e)
     {
-      // your code here      
+      // your code here     
+      
+      
+      // At the end of the "Correct" button, close the window.
+      System.exit(0);
     }
   }
   
