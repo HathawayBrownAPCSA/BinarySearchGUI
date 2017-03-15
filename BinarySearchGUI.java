@@ -55,9 +55,9 @@ public class BinarySearchGUI extends JPanel
     // Lay Out the Tools on a JFrame
     // 2 rows, 3 cols, spaced by 10 horizontally and vertically
     setLayout(new GridLayout(2, 3, 10, 10));
+    add(blank);
     add(guessWords);
     add(nextGuess);
-    add(blank);
     add(lowerButton);
     add(correctButton);
     add(higherButton);
