@@ -43,6 +43,7 @@ public class BinarySearchGUI extends JPanel
     nextGuess.setFont(new Font("Arial", Font.BOLD, 20));
     blank = new JLabel(" ");
     
+    // If the font is too small for the buttons, set it larger, like above
     lowerButton = new JButton("Lower");
     lowerButton.addActionListener(new lowerButtonListener());
     
@@ -106,7 +107,7 @@ public class BinarySearchGUI extends JPanel
     JFrame window = new JFrame("Guess My Number!");
     window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     window.getContentPane().add(new BinarySearchGUI());
-    window.setBounds(300,300,360,120);
+    window.setBounds(300,300,360,120);    // Use larger numbers for the last two parameters if your screen is too small
     window.setVisible(true);
   }
  
